@@ -1,11 +1,45 @@
+
+body{
+    font-size: 12px;
+}
+
+h4{
+    margin: 15px;
+}
+h3{
+    font-size: 24px;
+}
+
+
 p{
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: static; 
 }
 
 header{
     background-color: #EAC926;
 }
 
+#precio{
+font-size: 18px;
+}
+
+#descuento_descripcion{
+    font-size: 16px;
+}
+
+#amburgesa{
+    display: inline-flex;
+    background-color:#1259c3;
+    color: white;
+    font-size: 60px;
+    margin: 15px;
+    font-weight: bold;
+    
+  
+
+}
 /* Amarillo =: #EAC926;
 Azul: #03264C;
 Celeste: #1259c3;
@@ -14,8 +48,6 @@ Gris claro: #ebebeb;
 Verde: #39b54a; */
 
 /* Tamaños Tipográficos
-Cuerpos de texto: 12px
+
 Titulares (Basado en tu última visita/Ofertas): 24px
-Precios: 18px
-Descuentos: 16px
-Descripciones: 16p */
+
