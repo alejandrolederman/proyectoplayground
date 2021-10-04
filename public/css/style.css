@@ -19,6 +19,18 @@ p{
 
 header{
     background-color: #EAC926;
+    
+}
+.centro{
+    text-align: center;
+    font-size: 30px; 
+    background-color: #03264C;
+    
+    color: white;
+    
+}
+.todoCentro{
+text-align: center;
 }
 
 #precio{
@@ -29,17 +41,7 @@ font-size: 18px;
     font-size: 16px;
 }
 
-#amburgesa{
-    display: inline-flex;
-    background-color:#1259c3;
-    color: white;
-    font-size: 60px;
-    margin: 15px;
-    font-weight: bold;
-    
-  
 
-}
 /* Amarillo =: #EAC926;
 Azul: #03264C;
 Celeste: #1259c3;
