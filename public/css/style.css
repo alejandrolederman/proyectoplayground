@@ -1,37 +1,39 @@
 
 body{
     font-size: 12px;
+    padding: 5px;
+}
+.lipa{
+    margin-left: 20px;
 }
 
-h4{
-    margin: 15px;
-}
 h3{
     font-size: 24px;
 }
-
 
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     position: static; 
+   
 }
 
 header{
     background-color: #EAC926;
-    
 }
-.centro{
-    text-align: center;
-    font-size: 30px; 
-    background-color: #03264C;
-    
-    color: white;
-    
-}
-.todoCentro{
-text-align: center;
-}
+
+.amburguesa{
+        background-color: #1259c3;
+        color:white;
+        font-size: 30px;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 1%;
+        display:inline-block;
+        margin-bottom: 10px;
+        margin-left: 45%;
+        border-radius: 10px;
+        }
 
 #precio{
 font-size: 18px;
@@ -41,6 +43,19 @@ font-size: 18px;
     font-size: 16px;
 }
 
+section{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 10px;     
+    
+}
+
+article{
+color: #1259c3;
+font-size: 2em;
+margin-bottom: 10px;
+}
 
 /* Amarillo =: #EAC926;
 Azul: #03264C;
@@ -49,7 +64,7 @@ Gris oscuro: #666;
 Gris claro: #ebebeb;
 Verde: #39b54a; */
 
-/* Tamaños Tipográficos
 
-Titulares (Basado en tu última visita/Ofertas): 24px
+
+
 
