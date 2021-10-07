@@ -22,67 +22,82 @@
 rel="stylesheet" />
 </head>
 <body> 
-    <header  >
-    <img src="/images/logo-mercado-liebre.svg" width="25%" alt="imagen">
+    <header>
+        <div class="top-header">
+            <div class="logo"> 
+                <img src="images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+            </div>
     
-    <h4>lugar para poner la barra de busqueda</h4>
-    <h4><i class="fas fa-search" ></i></h4>
-    
-    
-        
-    <i class="fas fa-hand-holding-usd">Comprá en cuotas y sin tarjeta de crédito</i> 
+            <div class="input">Buscar productos, marcas y más</div>
+            <div class="submit"><i class="fa fa-search"></i></div>
 
-    <a><ul>
+            <p class="lipa"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p> 
+        </div>
+    
+    <nav>
+    <ul>
         <li><a href=""> ofertas </a></li>
         <li><a href=""> Tiendas Oficiales </a></li>
         <li><a href="">Vender</a></li>
         <li><a href="">ayuda</a></li>     
     </ul>
     <ul>
-        <li><a href="">Creá tu cuenta</a> <i class="far fa-id-card"></i></li> 
-        <li><a href="">Ingresá</a> <i class="fas fa-sign-in-alt"></i></li>
-        <li><a href="">Mis compras</a> <i class="fas fa-shopping-basket"></i></li> 
+        <li><a href="">Creá tu cuenta <i class="far fa-id-card"></i></a></li> 
+        <li><a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href="">Mis compras <i class="fas fa-shopping-basket"></i></a></li> 
     </ul>
-    </a>
+    </nav>
     <div class="amburguesa"  class="burger-menu">
         <i class="fas fa-bars" ></i>
     </div>
-
     </header>
+    
+    <section class="banner">
+        <img src="/images/img-home-banner.jpg" alt="imagen">
+    </section>
+
     <main>
         <ul>
-        <img src="/images/img-home-banner.jpg" width="1200" height="300" alt="imagen">
-
+        
         <h3>Sección: Basado en tu última visita </h3> 
 
-
-        <img src="/images/img-cafetera-moulinex.jpg" width="300" alt="imagen">
+        <article>
+        <img src="/images/img-cafetera-moulinex.jpg" alt="imagen">
        
-        <p>
-            <div id="precio">$6.770</div>
-             <div id="descuento_descripcion">40% OFF
-            Cafetera Moulinex</div></p> 
-   
-       <img src="/images/img-macbook-pro-2019.jpg" width="300" alt="imagen">
+        <div>
+            <i class="fas fa-truck"></i>
+            <p id="precio">$6.770</p>
+             <p id="descuento_descripcion">40% OFF
+            Cafetera Moulinex</p></div> 
+        </article>
+        <article>   
+       <img src="/images/img-macbook-pro-2019.jpg" alt="imagen">
       
-       <p>
+       <div>
+            <i class="fas fa-truck"></i>
             <div id="precio">$230.000</div>
             <div id="descuento_descripcion">20% off
-            MacBook Pro 2019</div></p>
-   
-       <img src="/images/img-samsung-galaxy-s10.jpg" width="300" alt="imagen">
+            MacBook Pro 2019</div></div>
+        </article>
+
+        <article>
+       <img src="/images/img-samsung-galaxy-s10.jpg" alt="imagen">
    
         <p>
+            <i class="fas fa-truck"></i>
             <div id="precio">$70.500</div>
             <div id="descuento_descripcion">10% off
             Samsung Galaxy S10</div></p>
-   
-       <img src="/images/img-tv-samsung-smart.jpg" width="300" alt="imagen">
+        </article>
+        <article>
+       <img src="/images/img-tv-samsung-smart.jpg"  alt="imagen">
    
         <p>
-             <div id="precio">$23.200</div>
-             <div id="descuento_descripcion"> 5% off
+            <i class="fas fa-truck"></i>
+            <div id="precio">$23.200</div>
+            <div id="descuento_descripcion"> 5% off
             SmartTv Samsung 43"</div></p>
+        </article>
         </ul>
 
         <ul>
@@ -90,27 +105,27 @@ rel="stylesheet" />
             <h3>Sección de Ofertas </h3> 
 
 
-        <img src="/images/img-cafetera-moulinex.jpg" width="300" alt="imagen">
+        <img src="/images/img-cafetera-moulinex.jpg" alt="imagen">
         <p>
             <div id="precio">$6.770</div>
             <div id="descuento_descripcion">40% OFF
             Cafetera Moulinex</div></p> 
    
-       <img src="/images/img-macbook-pro-2019.jpg" width="300" alt="imagen">
+       <img src="/images/img-macbook-pro-2019.jpg"  alt="imagen">
    
         <p>
-             <div id="precio">$230.000</div>
-             <div id="descuento_descripcion">20% off
+            <div id="precio">$230.000</div>
+            <div id="descuento_descripcion">20% off
             MacBook Pro 2019</div></p>
    
-       <img src="/images/img-samsung-galaxy-s10.jpg" width="300" alt="imagen">
+       <img src="/images/img-samsung-galaxy-s10.jpg"  alt="imagen">
    
         <p>
             <div id="precio">$70.500</div>
             <div id="descuento_descripcion">10% off
             Samsung Galaxy S10</div></p>
    
-       <img src="/images/img-tv-samsung-smart.jpg" width="300" alt="imagen">
+       <img src="/images/img-tv-samsung-smart.jpg"  alt="imagen">
    
         <p>
             <div id="precio">$23.200</div>
@@ -120,20 +135,20 @@ rel="stylesheet" />
     </main>
 <footer>
     
-    <section> 
-        <article class="fas fa-credit-card"></article>
+    <section class="iconoasul"> 
+        <span class="fas fa-credit-card"></span>
         <p> Pagá con tarjeta o en efectivo
             Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
             puntos de pago. ¡Y siempre es seguro!</p>
         
 
-        <article class="fas fa-gift"></article>
+        <span class="fas fa-gift"></span>
         <p> Envío gratis desde $ 2.500
             Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
             productos. Es un beneficio de Mercado Puntos.</p>
         
 
-       <article class="fas fa-user-shield"></article>
+       <span class="fas fa-user-shield"></span>
         <p> Seguridad, de principio a fin
             ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
             porque estás siempre protegid@.</p>
